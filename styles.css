@@ -18,6 +18,24 @@ section {
     background: white;
     border-radius: 10px;
 }
+#testimonials {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px;
+    padding: 10px;
+    border-left: 4px solid #333;
+}
+
+cite {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
 
 footer {
     background: #333;
