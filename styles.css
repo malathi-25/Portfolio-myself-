@@ -1,47 +1,1266 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    text-align: center;
+.website-portfolio {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 6064px;
+  position: relative;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
+.website-portfolio .hero {
+  display: flex;
+  width: 1440px;
+  height: 552px;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 96px 80px;
+  position: absolute;
+  top: 68px;
+  left: 0;
+  background-color: var(--primitives-gray-default);
+  aspect-ratio: 2.61;
 }
 
-section {
-    margin: 20px;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-}
-#testimonials {
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
+.website-portfolio .container {
+  position: relative;
+  width: 1254px;
+  height: 354px;
 }
 
-blockquote {
-    font-style: italic;
-    margin: 20px;
-    padding: 10px;
-    border-left: 4px solid #333;
+.website-portfolio .column {
+  max-width: 768px;
+  width: 768px;
+  height: 436px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 48px;
+  position: absolute;
+  top: 0;
+  left: 32px;
+  display: flex;
+  flex-direction: column;
 }
 
-cite {
-    display: block;
-    font-weight: bold;
-    margin-top: 10px;
+.website-portfolio .div {
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
-footer {
-    background: #333;
-    color: white;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+.website-portfolio .text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--heading-h1-bold-desktop-font-family);
+  font-weight: var(--heading-h1-bold-desktop-font-weight);
+  color: var(--primitives-gray-900);
+  font-size: var(--heading-h1-bold-desktop-font-size);
+  letter-spacing: var(--heading-h1-bold-desktop-letter-spacing);
+  line-height: var(--heading-h1-bold-desktop-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-h1-bold-desktop-font-style);
+}
+
+.website-portfolio .text-wrapper {
+  position: relative;
+  width: 768px;
+  font-family: var(--body2-normal-all-font-family);
+  font-weight: var(--body2-normal-all-font-weight);
+  color: var(--primitives-gray-600);
+  font-size: var(--body2-normal-all-font-size);
+  letter-spacing: var(--body2-normal-all-letter-spacing);
+  line-height: var(--body2-normal-all-line-height);
+  font-style: var(--body2-normal-all-font-style);
+}
+
+.website-portfolio .location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.website-portfolio .icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.website-portfolio .text-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body2-normal-all-font-family);
+  font-weight: var(--body2-normal-all-font-weight);
+  color: var(--primitives-gray-600);
+  font-size: var(--body2-normal-all-font-size);
+  letter-spacing: var(--body2-normal-all-letter-spacing);
+  line-height: var(--body2-normal-all-line-height);
+  white-space: nowrap;
+  font-style: var(--body2-normal-all-font-style);
+}
+
+.website-portfolio .hire {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.website-portfolio .icon-dot-emerald-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.website-portfolio .icon-dot-emerald {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-color: #10b981;
+  border-radius: 20px;
+}
+
+.website-portfolio .div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  width: 100%;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.website-portfolio .links {
+  display: inline-flex;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.website-portfolio .icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 8px;
+}
+
+.website-portfolio .img {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.website-portfolio .pic-container-wrapper {
+  width: 400px;
+  height: 436px;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 763px;
+  display: flex;
+  flex-direction: column;
+}
+
+.website-portfolio .pic-container {
+  position: relative;
+  width: 301px;
+  height: 352px;
+}
+
+.website-portfolio .background {
+  top: 32px;
+  left: 21px;
+  width: 280px;
+  height: 320px;
+  border-color: var(--primitives-gray-default);
+  position: absolute;
+  background-color: var(--primitives-gray-200);
+  border: 8px solid;
+}
+
+.website-portfolio .pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 320px;
+  border: 8px solid;
+  border-color: var(--primitives-gray-default);
+  background-image: url(./img/pic.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.website-portfolio .about {
+  display: flex;
+  width: 1440px;
+  height: 1228px;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 96px 80px;
+  position: absolute;
+  top: 620px;
+  left: 0;
+  background-color: var(--primitives-gray-50);
+}
+
+.website-portfolio .container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 0px 32px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  margin-bottom: -32.00px;
+}
+
+.website-portfolio .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.website-portfolio .tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--primitives-gray-200);
+  border-radius: 12px;
+}
+
+.website-portfolio .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body3-medium-all-font-family);
+  font-weight: var(--body3-medium-all-font-weight);
+  color: var(--primitives-gray-600);
+  font-size: var(--body3-medium-all-font-size);
+  letter-spacing: var(--body3-medium-all-letter-spacing);
+  line-height: var(--body3-medium-all-line-height);
+  white-space: nowrap;
+  font-style: var(--body3-medium-all-font-style);
+}
+
+.website-portfolio .row-2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 48px 48px;
+  flex: 0 0 auto;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.website-portfolio .div-wrapper {
+  min-width: 444px;
+  align-items: flex-start;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.website-portfolio .pic-container-2 {
+  position: relative;
+  width: 372px;
+  height: 476px;
+}
+
+.website-portfolio .background-2 {
+  top: 10px;
+  left: 0;
+  width: 363px;
+  height: 466px;
+  border-color: var(--primitives-gray-50);
+  position: absolute;
+  background-color: var(--primitives-gray-200);
+  border: 8px solid;
+}
+
+.website-portfolio .pic-2 {
+  position: absolute;
+  top: 0;
+  left: 24px;
+  width: 348px;
+  height: 454px;
+  border: 8px solid;
+  border-color: var(--primitives-gray-50);
+  background-image: url(./img/image.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.website-portfolio .column-2 {
+  min-width: 444px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.website-portfolio .p {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--heading-h3-semi-bold-desktop-font-family);
+  font-weight: var(--heading-h3-semi-bold-desktop-font-weight);
+  color: var(--primitives-gray-900);
+  font-size: var(--heading-h3-semi-bold-desktop-font-size);
+  letter-spacing: var(--heading-h3-semi-bold-desktop-letter-spacing);
+  line-height: var(--heading-h3-semi-bold-desktop-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-h3-semi-bold-desktop-font-style);
+}
+
+.website-portfolio .text-3 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--body2-normal-all-font-family);
+  font-weight: var(--body2-normal-all-font-weight);
+  color: var(--primitives-gray-600);
+  font-size: var(--body2-normal-all-font-size);
+  letter-spacing: var(--body2-normal-all-letter-spacing);
+  line-height: var(--body2-normal-all-line-height);
+  font-style: var(--body2-normal-all-font-style);
+}
+
+.website-portfolio .text-4 {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--body2-normal-all-font-family);
+  font-weight: var(--body2-normal-all-font-weight);
+  color: var(--primitives-gray-600);
+  font-size: var(--body2-normal-all-font-size);
+  letter-spacing: var(--body2-normal-all-letter-spacing);
+  line-height: var(--body2-normal-all-line-height);
+  font-style: var(--body2-normal-all-font-style);
+}
+
+.website-portfolio .text-5 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body2-normal-all-font-family);
+  font-weight: var(--body2-normal-all-font-weight);
+  color: var(--primitives-gray-600);
+  font-size: var(--body2-normal-all-font-size);
+  letter-spacing: var(--body2-normal-all-letter-spacing);
+  line-height: var(--body2-normal-all-line-height);
+  white-space: nowrap;
+  font-style: var(--body2-normal-all-font-style);
+}
+
+.website-portfolio .checklist {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.website-portfolio .column-3 {
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.website-portfolio .skills {
+  display: flex;
+  flex-direction: column;
+  width: 1439px;
+  height: 550px;
+  align-items: flex-start;
+  gap: 48px;
+  padding: 96px 80px;
+  position: absolute;
+  top: 1848px;
+  left: 1px;
+}
+
+.website-portfolio .subheading {
+  position: relative;
+  margin-top: -1.00px;
+  font-family: var(--subtitle-normal-desktop-font-family);
+  font-weight: var(--subtitle-normal-desktop-font-weight);
+  color: var(--primitives-gray-600);
+  font-size: var(--subtitle-normal-desktop-font-size);
+  text-align: center;
+  letter-spacing: var(--subtitle-normal-desktop-letter-spacing);
+  line-height: var(--subtitle-normal-desktop-line-height);
+  font-style: var(--subtitle-normal-desktop-font-style);
+}
+
+.website-portfolio .row-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  align-items: flex-start;
+  gap: 48px;
+  margin-bottom: -82.00px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.website-portfolio .row-3 {
+  height: 362px;
+  margin-bottom: -42.00px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.website-portfolio .frame {
+  display: flex;
+  width: 1165px;
+  align-items: center;
+  gap: 96px;
+  position: absolute;
+  top: -4px;
+  left: 27px;
+}
+
+.website-portfolio .tech {
+  width: 80px;
+  gap: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.website-portfolio .images {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 63px;
+  object-fit: cover;
+}
+
+.website-portfolio .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--body1-normal-dektop-font-family);
+  font-weight: var(--body1-normal-dektop-font-weight);
+  color: var(--primitives-gray-600);
+  font-size: var(--body1-normal-dektop-font-size);
+  text-align: center;
+  letter-spacing: var(--body1-normal-dektop-letter-spacing);
+  line-height: var(--body1-normal-dektop-line-height);
+  font-style: var(--body1-normal-dektop-font-style);
+}
+
+.website-portfolio .tech-2 {
+  width: 80px;
+  height: 100px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.website-portfolio .icon-react {
+  position: relative;
+  width: 69.82px;
+  height: 64px;
+}
+
+.website-portfolio .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body1-normal-dektop-font-family);
+  font-weight: var(--body1-normal-dektop-font-weight);
+  color: var(--primitives-gray-600);
+  font-size: var(--body1-normal-dektop-font-size);
+  letter-spacing: var(--body1-normal-dektop-letter-spacing);
+  line-height: var(--body1-normal-dektop-line-height);
+  white-space: nowrap;
+  font-style: var(--body1-normal-dektop-font-style);
+}
+
+.website-portfolio .tech-3 {
+  width: 80px;
+  height: 100px;
+  gap: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.website-portfolio .img-2 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.website-portfolio .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-left: -4.00px;
+  margin-right: -4.00px;
+  font-family: var(--body1-normal-dektop-font-family);
+  font-weight: var(--body1-normal-dektop-font-weight);
+  color: var(--primitives-gray-600);
+  font-size: var(--body1-normal-dektop-font-size);
+  letter-spacing: var(--body1-normal-dektop-letter-spacing);
+  line-height: var(--body1-normal-dektop-line-height);
+  white-space: nowrap;
+  font-style: var(--body1-normal-dektop-font-style);
+}
+
+.website-portfolio .tech-4 {
+  width: 80px;
+  height: 124px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.website-portfolio .icon-figma {
+  position: relative;
+  width: 42.67px;
+  height: 64px;
+}
+
+.website-portfolio .icon-nodejs {
+  position: relative;
+  width: 56.32px;
+  height: 64px;
+}
+
+.website-portfolio .tech-5 {
+  width: 80px;
+  height: 122px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.website-portfolio .tech-6 {
+  width: 80px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.website-portfolio .text-wrapper-6 {
+  position: relative;
+  width: 67px;
+  font-family: var(--body1-normal-dektop-font-family);
+  font-weight: var(--body1-normal-dektop-font-weight);
+  color: var(--primitives-gray-600);
+  font-size: var(--body1-normal-dektop-font-size);
+  letter-spacing: var(--body1-normal-dektop-letter-spacing);
+  line-height: var(--body1-normal-dektop-line-height);
+  font-style: var(--body1-normal-dektop-font-style);
+}
+
+.website-portfolio .frame-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 89px;
+  position: absolute;
+  top: 177px;
+  left: calc(50.00% - 492px);
+}
+
+.website-portfolio .frame-3 {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.website-portfolio .vector-wrapper {
+  position: relative;
+  width: 51px;
+  height: 64px;
+  aspect-ratio: 0.8;
+}
+
+.website-portfolio .vector {
+  position: absolute;
+  width: 91.67%;
+  height: 93.34%;
+  top: 6.66%;
+  left: 8.33%;
+}
+
+.website-portfolio .text-wrapper-7 {
+  position: relative;
+  width: 47px;
+  height: 18px;
+  font-family: var(--body-small-font-family);
+  font-weight: var(--body-small-font-weight);
+  color: var(--graygray-800);
+  font-size: var(--body-small-font-size);
+  text-align: center;
+  letter-spacing: var(--body-small-letter-spacing);
+  line-height: var(--body-small-line-height);
+  font-style: var(--body-small-font-style);
+}
+
+.website-portfolio .vector-2 {
+  position: absolute;
+  width: 91.67%;
+  height: 91.67%;
+  top: 8.33%;
+  left: 8.33%;
+}
+
+.website-portfolio .text-wrapper-8 {
+  position: relative;
+  align-self: stretch;
+  height: 35.09px;
+  aspect-ratio: 2.28;
+  font-family: var(--body-small-font-family);
+  font-weight: var(--body-small-font-weight);
+  color: var(--graygray-800);
+  font-size: var(--body-small-font-size);
+  text-align: center;
+  letter-spacing: var(--body-small-letter-spacing);
+  line-height: var(--body-small-line-height);
+  font-style: var(--body-small-font-style);
+}
+
+.website-portfolio .tech-7 {
+  width: 104px;
+  height: 108px;
+  gap: 8px;
+  aspect-ratio: 0.96;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.website-portfolio .text-wrapper-9 {
+  position: relative;
+  width: 99px;
+  height: 28px;
+  font-family: var(--body1-normal-dektop-font-family);
+  font-weight: var(--body1-normal-dektop-font-weight);
+  color: var(--primitives-gray-600);
+  font-size: var(--body1-normal-dektop-font-size);
+  letter-spacing: var(--body1-normal-dektop-letter-spacing);
+  line-height: var(--body1-normal-dektop-line-height);
+  white-space: nowrap;
+  font-style: var(--body1-normal-dektop-font-style);
+}
+
+.website-portfolio .logos-dot-net {
+  position: relative;
+  width: 112px;
+  height: 115px;
+  aspect-ratio: 0.97;
+}
+
+.website-portfolio .vector-3 {
+  position: absolute;
+  width: 97.71%;
+  height: 51.56%;
+  top: 48.44%;
+  left: 2.29%;
+}
+
+.website-portfolio .vector-4 {
+  position: absolute;
+  width: 64.53%;
+  height: 89.05%;
+  top: 10.95%;
+  left: 35.47%;
+}
+
+.website-portfolio .vector-5 {
+  position: absolute;
+  width: 63.22%;
+  height: 90.05%;
+  top: 9.95%;
+  left: 36.78%;
+}
+
+.website-portfolio .vector-6 {
+  position: absolute;
+  width: 63.68%;
+  height: 94.76%;
+  top: 5.24%;
+  left: 36.32%;
+}
+
+.website-portfolio .vector-7 {
+  position: absolute;
+  width: 53.39%;
+  height: 94.75%;
+  top: 5.25%;
+  left: 46.61%;
+}
+
+.website-portfolio .vector-8 {
+  position: absolute;
+  width: 55.19%;
+  height: 94.76%;
+  top: 5.24%;
+  left: 44.81%;
+}
+
+.website-portfolio .vector-9 {
+  position: absolute;
+  width: 45.27%;
+  height: 62.07%;
+  top: 37.93%;
+  left: 54.73%;
+}
+
+.website-portfolio .vector-10 {
+  position: absolute;
+  width: 55.75%;
+  height: 94.54%;
+  top: 5.46%;
+  left: 44.25%;
+}
+
+.website-portfolio .vector-11 {
+  position: absolute;
+  width: 62.06%;
+  height: 93.89%;
+  top: 6.11%;
+  left: 37.94%;
+}
+
+.website-portfolio .vector-12 {
+  position: absolute;
+  width: 71.81%;
+  height: 90.62%;
+  top: 9.38%;
+  left: 28.19%;
+}
+
+.website-portfolio .vector-13 {
+  position: absolute;
+  width: 65.60%;
+  height: 91.26%;
+  top: 8.74%;
+  left: 34.40%;
+}
+
+.website-portfolio .vector-14 {
+  position: absolute;
+  width: 64.72%;
+  height: 91.96%;
+  top: 8.04%;
+  left: 35.28%;
+}
+
+.website-portfolio .vector-15 {
+  position: absolute;
+  width: 31.96%;
+  height: 95.57%;
+  top: 4.43%;
+  left: 68.04%;
+}
+
+.website-portfolio .vector-16 {
+  position: absolute;
+  width: 97.65%;
+  height: 94.77%;
+  top: 5.23%;
+  left: 2.35%;
+}
+
+.website-portfolio .vector-17 {
+  position: absolute;
+  width: 68.58%;
+  height: 93.97%;
+  top: 6.03%;
+  left: 31.42%;
+}
+
+.website-portfolio .vector-18 {
+  position: absolute;
+  width: 91.88%;
+  height: 94.03%;
+  top: 5.97%;
+  left: 8.12%;
+}
+
+.website-portfolio .vector-19 {
+  position: absolute;
+  width: 66.31%;
+  height: 92.49%;
+  top: 7.51%;
+  left: 33.69%;
+}
+
+.website-portfolio .vector-20 {
+  position: absolute;
+  width: 88.91%;
+  height: 79.03%;
+  top: 20.97%;
+  left: 11.09%;
+}
+
+.website-portfolio .vector-21 {
+  position: absolute;
+  width: 88.27%;
+  height: 88.07%;
+  top: 11.93%;
+  left: 11.73%;
+}
+
+.website-portfolio .vector-22 {
+  position: absolute;
+  width: 96.60%;
+  height: 66.35%;
+  top: 33.65%;
+  left: 3.40%;
+}
+
+.website-portfolio .vector-23 {
+  position: absolute;
+  width: 93.56%;
+  height: 94.71%;
+  top: 5.29%;
+  left: 6.44%;
+}
+
+.website-portfolio .vector-24 {
+  position: absolute;
+  width: 29.46%;
+  height: 94.76%;
+  top: 5.24%;
+  left: 70.54%;
+}
+
+.website-portfolio .vector-25 {
+  position: absolute;
+  width: 29.96%;
+  height: 95.56%;
+  top: 4.44%;
+  left: 70.04%;
+}
+
+.website-portfolio .vector-26 {
+  position: absolute;
+  width: 36.35%;
+  height: 73.31%;
+  top: 26.69%;
+  left: 63.65%;
+}
+
+.website-portfolio .vector-27 {
+  position: absolute;
+  width: 37.10%;
+  height: 61.36%;
+  top: 38.64%;
+  left: 62.90%;
+}
+
+.website-portfolio .vector-28 {
+  position: absolute;
+  width: 49.74%;
+  height: 59.39%;
+  top: 40.61%;
+  left: 50.26%;
+}
+
+.website-portfolio .vector-29 {
+  position: absolute;
+  width: 33.74%;
+  height: 58.76%;
+  top: 41.24%;
+  left: 66.26%;
+}
+
+.website-portfolio .vector-30 {
+  position: absolute;
+  width: 40.18%;
+  height: 65.27%;
+  top: 34.73%;
+  left: 59.82%;
+}
+
+.website-portfolio .vector-31 {
+  position: absolute;
+  width: 34.67%;
+  height: 95.56%;
+  top: 4.44%;
+  left: 65.33%;
+}
+
+.website-portfolio .vector-32 {
+  position: absolute;
+  width: 70.64%;
+  height: 94.73%;
+  top: 5.27%;
+  left: 29.36%;
+}
+
+.website-portfolio .vector-33 {
+  position: absolute;
+  width: 65.86%;
+  height: 93.17%;
+  top: 6.83%;
+  left: 34.14%;
+}
+
+.website-portfolio .group {
+  width: 12.17%;
+  height: 0;
+  top: 5.29%;
+  left: 28.33%;
+  position: absolute;
+  background-image: url(./img/vector-36.svg);
+  background-size: 100% 100%;
+}
+
+.website-portfolio .group-2 {
+  width: 9.93%;
+  height: 2.81%;
+  top: 5.28%;
+  left: 34.68%;
+  position: absolute;
+  background-image: url(./img/vector-29.svg);
+  background-size: 100% 100%;
+}
+
+.website-portfolio .vector-34 {
+  position: absolute;
+  width: 36.33%;
+  height: 95.52%;
+  top: 4.48%;
+  left: 63.67%;
+}
+
+.website-portfolio .tech-8 {
+  width: 85px;
+  height: 107px;
+  gap: 8px;
+  aspect-ratio: 0.79;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.website-portfolio .sql-server {
+  position: relative;
+  width: 53px;
+  height: 61px;
+}
+
+.website-portfolio .vector-35 {
+  position: absolute;
+  width: 78.75%;
+  height: 95.83%;
+  top: 4.17%;
+  left: 21.25%;
+}
+
+.website-portfolio .vector-36 {
+  position: absolute;
+  width: 92.31%;
+  height: 52.57%;
+  top: 47.43%;
+  left: 7.69%;
+}
+
+.website-portfolio .vector-37 {
+  position: absolute;
+  width: 86.12%;
+  height: 45.37%;
+  top: 54.63%;
+  left: 13.88%;
+}
+
+.website-portfolio .vector-38 {
+  position: absolute;
+  width: 90.80%;
+  height: 49.78%;
+  top: 50.22%;
+  left: 9.20%;
+}
+
+.website-portfolio .vector-39 {
+  position: absolute;
+  width: 74.14%;
+  height: 90.30%;
+  top: 9.70%;
+  left: 25.86%;
+}
+
+.website-portfolio .vector-40 {
+  position: absolute;
+  width: 67.11%;
+  height: 76.74%;
+  top: 23.26%;
+  left: 32.89%;
+}
+
+.website-portfolio .vector-41 {
+  position: absolute;
+  width: 77.18%;
+  height: 79.42%;
+  top: 20.58%;
+  left: 22.82%;
+}
+
+.website-portfolio .vector-42 {
+  position: absolute;
+  width: 83.52%;
+  height: 83.76%;
+  top: 16.24%;
+  left: 16.48%;
+}
+
+.website-portfolio .vector-43 {
+  position: absolute;
+  width: 87.84%;
+  height: 86.37%;
+  top: 13.63%;
+  left: 12.16%;
+}
+
+.website-portfolio .text-wrapper-10 {
+  position: relative;
+  width: 60px;
+  height: 18px;
+  font-family: var(--body-small-font-family);
+  font-weight: var(--body-small-font-weight);
+  color: var(--graygray-800);
+  font-size: var(--body-small-font-size);
+  text-align: center;
+  letter-spacing: var(--body-small-letter-spacing);
+  line-height: var(--body-small-line-height);
+  font-style: var(--body-small-font-style);
+}
+
+.website-portfolio .logos-plain {
+  position: relative;
+  width: 80px;
+  height: 100px;
+}
+
+.website-portfolio .vector-44 {
+  position: absolute;
+  width: 84.63%;
+  height: 99.22%;
+  top: 0;
+  left: 15.37%;
+}
+
+.website-portfolio .experience {
+  position: absolute;
+  top: 2426px;
+  left: 1px;
+  width: 1439px;
+  height: 1320px;
+}
+
+.website-portfolio .work {
+  position: absolute;
+  top: 3735px;
+  left: 1px;
+  width: 1439px;
+  height: 1763px;
+}
+
+.website-portfolio .contact-me {
+  position: absolute;
+  top: 5498px;
+  left: 1px;
+  width: 1439px;
+  height: 532px;
+}
+
+.website-portfolio .footer {
+  position: absolute;
+  top: 5996px;
+  left: 41px;
+  width: 1360px;
+  height: 68px;
+}
+
+.website-portfolio .header {
+  display: flex;
+  width: 1442px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 16px;
+  padding: 16px 80px;
+  position: absolute;
+  top: -1px;
+  left: -2px;
+  background-color: var(--primitives-gray-default);
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-color: transparent;
+}
+
+.website-portfolio .container-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 32px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.website-portfolio .SS {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--primitives-gray-900);
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: -0.60px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.website-portfolio .navigation {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.website-portfolio .link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.website-portfolio .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body2-medium-all-font-family);
+  font-weight: var(--body2-medium-all-font-weight);
+  color: var(--primitives-gray-600);
+  font-size: var(--body2-medium-all-font-size);
+  letter-spacing: var(--body2-medium-all-letter-spacing);
+  line-height: var(--body2-medium-all-line-height);
+  white-space: nowrap;
+  font-style: var(--body2-medium-all-font-style);
+}
+
+.website-portfolio .divider {
+  position: relative;
+  width: 1px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.website-portfolio .actions {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.website-portfolio .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 6px 16px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--primitives-gray-900);
+  border-radius: 12px;
+}
+
+.website-portfolio .button-light-mode {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body2-medium-all-font-family);
+  font-weight: var(--body2-medium-all-font-weight);
+  color: var(--primitives-gray-50);
+  font-size: var(--body2-medium-all-font-size);
+  letter-spacing: var(--body2-medium-all-letter-spacing);
+  line-height: var(--body2-medium-all-line-height);
+  white-space: nowrap;
+  font-style: var(--body2-medium-all-font-style);
 }
